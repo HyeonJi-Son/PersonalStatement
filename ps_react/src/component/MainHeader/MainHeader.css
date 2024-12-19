@@ -1,3 +1,43 @@
-.MainHeader {
+.main_header {
     width: 100%;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+}
+.main_header .mh_bar {
+    width: 90%;
+    height: 80px;
+    padding: 0 30px;
+
+    background-color: rgb(173, 173, 173);
+    color:#fff;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.main_header .mh_bar .mhb_site_btns {
+    width: 70%;
+    height: 100%;
+
+    background-color: beige;
+
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+
+}
+.main_header .mh_bar .mhb_site_btns .mhb_btn {
+    
+    height: 100%;
+
+    display: flex;
+    align-items: center;
+    margin: 0 10px;
+}
+.main_header .mh_bar .mhb_site_btns .mhb_btn:last-child.contact_btn {
+    height: 30%;
+    margin-right: 0;
+    color: #34ac86;
+
 }
